@@ -1,1 +1,1 @@
-Files used to generate a .tdb file using ESPEI
+Files used to generate a Be-Ni .tdb file using ESPEI
