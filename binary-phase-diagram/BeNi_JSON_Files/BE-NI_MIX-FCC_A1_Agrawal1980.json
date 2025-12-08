@@ -1,0 +1,38 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["FCC_A1"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_occupancies": [
+      [[0.9, 0.1]],
+      [[0.8, 0.2]],
+      [[0.7, 0.3]],
+      [[0.6, 0.4]],
+      [[0.5, 0.5]],
+      [[0.4, 0.6]],
+      [[0.3, 0.7]],
+      [[0.2, 0.8]],
+      [[0.1, 0.9]]
+    ],
+    "sublattice_configurations": [
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1373
+  },
+  "output": "HM_MIX",
+  "values": [[[-13686, -23860, -30699, -34380, -35078, -32969, -28231, -21039, -11570]]],
+  "reference": "Agrawal (1980)",
+  "comment": "Free-volume theory enthalpy of mixing for fcc phase at 1100 K (1373 K). Formula: X(1-X)(-155000 + 29380X) J/mol where X = mole fraction Ni. Reference: R.D. Agrawal et al., Trans. Jpn. Inst. Met. 21(1), 1-8 (1980)"
+}

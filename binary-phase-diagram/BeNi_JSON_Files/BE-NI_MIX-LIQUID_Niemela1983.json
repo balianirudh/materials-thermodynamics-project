@@ -1,0 +1,38 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_occupancies": [
+      [[0.9, 0.1]],
+      [[0.8, 0.2]],
+      [[0.7, 0.3]],
+      [[0.6, 0.4]],
+      [[0.5, 0.5]],
+      [[0.4, 0.6]],
+      [[0.3, 0.7]],
+      [[0.2, 0.8]],
+      [[0.1, 0.9]]
+    ],
+    "sublattice_configurations": [
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]],
+      [["BE", "NI"]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1373
+  },
+  "output": "HM_MIX",
+  "values": [[[-7164, -12352, -15708, -17376, -17500, -16224, -13692, -10048, -5436]]],
+  "reference": "Niemela (1983)",
+  "comment": "Semi-empirical enthalpy of mixing for liquid phase at 1100 C. Formula: X(1-X)(-82000 + 24000X) J/mol where X = mole fraction Ni. Reference: J. Niemelä, CALPHAD 7, 71 (1983)"
+}
