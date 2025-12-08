@@ -1,0 +1,45 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "BCC_A2"],
+  "conditions": {
+    "P": 101325,
+    "T": [1327, 1355, 1357, 1372, 1392, 1395, 1389, 1349]
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.03]],
+      ["BCC_A2", ["NI"], [0.03]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.049]],
+      ["BCC_A2", ["NI"], [0.049]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.09]],
+      ["BCC_A2", ["NI"], [0.09]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.124]],
+      ["BCC_A2", ["NI"], [0.124]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.14]],
+      ["BCC_A2", ["NI"], [0.14]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.15]],
+      ["BCC_A2", ["NI"], [0.15]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.17]],
+      ["BCC_A2", ["NI"], [0.17]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.19]],
+      ["BCC_A2", ["NI"], [0.19]]
+    ]
+  ],
+  "reference": "Friedrich (1980) - Table 1",
+  "comment": "Liquidus data for γ (BCC_A2) phase region. Friedrich's more recent measurements. These constrain the liquidus around BE21NI5 congruent melting point."
+}

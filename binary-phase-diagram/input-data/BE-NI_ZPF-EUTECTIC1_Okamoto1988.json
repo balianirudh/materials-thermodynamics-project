@@ -1,0 +1,18 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "HCP_A3", "BCC_A2"],
+  "conditions": {
+    "P": 101325,
+    "T": 1338
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.105]],
+      ["HCP_A3", ["NI"], [0.10]],
+      ["BCC_A2", ["NI"], [0.115]]
+    ]
+  ],
+  "reference": "Okamoto (1988) - Table 4",
+  "comment": "Eutectic reaction: L → (αBe) + γ at 1338 K (1065°C). Compositions: L at 10.5 at.% Ni, αBe at ~10 at.% Ni, γ at 11.5 at.% Ni"
+}

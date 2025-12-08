@@ -1,0 +1,41 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "BENI"],
+  "conditions": {
+    "P": 101325,
+    "T": [1310, 1472, 1470, 1440, 1305, 1208, 1190]
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.4074]],
+      ["BENI", ["NI"], [0.4074]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.4979]],
+      ["BENI", ["NI"], [0.4979]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.5104]],
+      ["BENI", ["NI"], [0.5104]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.587]],
+      ["BENI", ["NI"], [0.587]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.6597]],
+      ["BENI", ["NI"], [0.6597]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.7009]],
+      ["BENI", ["NI"], [0.7009]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.7345]],
+      ["BENI", ["NI"], [0.7345]]
+    ]
+  ],
+  "reference": "Losana (1942) - Table 1",
+  "comment": "Liquidus points around β (BENI) phase field. Critical for constraining BENI melting behavior. Note: Losana reported lower melting T than Friedrich (1980)"
+}

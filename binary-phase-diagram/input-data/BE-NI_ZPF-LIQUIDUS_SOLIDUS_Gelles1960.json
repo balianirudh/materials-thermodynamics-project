@@ -1,0 +1,29 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "HCP_A3"],
+  "conditions": {
+    "P": 101325,
+    "T": [1308, 1324, 1368, 1385]
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.0118]],
+      ["HCP_A3", ["NI"], [0.0118]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.0261]],
+      ["HCP_A3", ["NI"], [0.0261]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.0578]],
+      ["HCP_A3", ["NI"], [0.0578]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.0882]],
+      ["HCP_A3", ["NI"], [0.0882]]
+    ]
+  ],
+  "reference": "Gelles (1960) - Table 1",
+  "comment": "Liquidus and solidus data for αBe phase from thermal analysis. Four temperature points: 1308, 1324, 1368, 1385 K"
+}

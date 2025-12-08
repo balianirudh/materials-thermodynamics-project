@@ -1,0 +1,17 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "BENI"],
+  "conditions": {
+    "P": 101325,
+    "T": 1605
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.50]],
+      ["BENI", ["NI"], [0.50]]
+    ]
+  ],
+  "reference": "Okamoto (1988) - Table 4",
+  "comment": "Maximum congruent melting of β (BeNi) at 1605 K (1332°C) and 50 at.% Ni"
+}

@@ -1,0 +1,45 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "HCP_A3"],
+  "conditions": {
+    "P": 101325,
+    "T": [1282, 1280, 1277, 1274, 1270, 1260, 1256, 1240]
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.005]],
+      ["HCP_A3", ["NI"], [0.005]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.0127]],
+      ["HCP_A3", ["NI"], [0.0127]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.017]],
+      ["HCP_A3", ["NI"], [0.017]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.0272]],
+      ["HCP_A3", ["NI"], [0.0272]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.0513]],
+      ["HCP_A3", ["NI"], [0.0513]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.07]],
+      ["HCP_A3", ["NI"], [0.07]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.0777]],
+      ["HCP_A3", ["NI"], [0.0777]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.1205]],
+      ["HCP_A3", ["NI"], [0.1205]]
+    ]
+  ],
+  "reference": "Losana (1942) - Table 1",
+  "comment": "Liquidus data for Be-rich side. These constrain the liquidus curve shape and temperature. Temperatures converted from °C to K."
+}

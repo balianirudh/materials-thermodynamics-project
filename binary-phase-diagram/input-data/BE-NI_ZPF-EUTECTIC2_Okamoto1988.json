@@ -1,0 +1,18 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "BENI", "FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": 1150
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.762]],
+      ["BENI", ["NI"], [0.516]],
+      ["FCC_A1", ["NI"], [0.85]]
+    ]
+  ],
+  "reference": "Okamoto (1988) - Table 4",
+  "comment": "Eutectic reaction: L → β + (Ni) at 1150 K (877°C). Compositions: L at 76.2 at.% Ni, β at 51.6 at.% Ni, (Ni) at 85 at.% Ni"
+}

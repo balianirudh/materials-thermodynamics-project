@@ -1,0 +1,41 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": [1308, 1342, 1370, 1394, 1402, 1420, 1438]
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.8205]],
+      ["FCC_A1", ["NI"], [0.8205]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.844]],
+      ["FCC_A1", ["NI"], [0.844]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.8733]],
+      ["FCC_A1", ["NI"], [0.8733]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.9076]],
+      ["FCC_A1", ["NI"], [0.9076]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.9261]],
+      ["FCC_A1", ["NI"], [0.9261]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.9365]],
+      ["FCC_A1", ["NI"], [0.9365]]
+    ],
+    [
+      ["LIQUID", ["NI"], [0.9634]],
+      ["FCC_A1", ["NI"], [0.9634]]
+    ]
+  ],
+  "reference": "Losana (1942) - Table 1",
+  "comment": "Liquidus data for Ni-rich side. These constrain the liquidus curve. Temperatures converted from °C to K."
+}

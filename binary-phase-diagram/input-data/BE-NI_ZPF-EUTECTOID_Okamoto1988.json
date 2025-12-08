@@ -1,0 +1,18 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["HCP_A3", "BCC_A2"],
+  "conditions": {
+    "P": 101325,
+    "T": 1062
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["HCP_A3", ["NI"], [0.045]],
+      ["HCP_A3", ["NI"], [0.085]],
+      ["BCC_A2", ["NI"], [0.12]]
+    ]
+  ],
+  "reference": "Okamoto (1988) - Table 4",
+  "comment": "Eutectoid reaction: (αBe) → (αBe) + γ at 1062 K. Compositions: αBe_left at 4.5 at.% Ni, αBe_right at 8.5 at.% Ni, γ at 12 at.% Ni"
+}
