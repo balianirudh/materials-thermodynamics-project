@@ -1,0 +1,17 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "BENI"],
+  "conditions": {
+    "P": 101325,
+    "T": 1509
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.295]],
+      ["BENI", ["NI"], [0.295]]
+    ]
+  ],
+  "reference": "Okamoto (1988) - Table 4",
+  "comment": "Minimum melting point of β (BENI) phase at 1236 deg. C and 29.5 at.% Ni. Critical constraint for β phase field width."
+}

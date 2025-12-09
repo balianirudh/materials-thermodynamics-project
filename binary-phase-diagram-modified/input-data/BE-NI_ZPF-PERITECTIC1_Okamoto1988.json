@@ -1,0 +1,18 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "BCC_A2", "BENI"],
+  "conditions": {
+    "P": 101325,
+    "T": 1513
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.265]],
+      ["BCC_A2", ["NI"], [0.19]],
+      ["BENI", ["NI"], [0.25]]
+    ]
+  ],
+  "reference": "Okamoto (1988) - Table 4",
+  "comment": "Peritectic reaction: L + γ → β at 1240°C. Compositions: L at 26.5 at.% Ni, γ at ~19 at.% Ni, β at 25 at.% Ni"
+}

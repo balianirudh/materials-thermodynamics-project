@@ -1,0 +1,17 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["LIQUID", "BE21NI5"],
+  "conditions": {
+    "P": 101325,
+    "T": 1668
+  },
+  "output": "ZPF",
+  "values": [
+    [
+      ["LIQUID", ["NI"], [0.16]],
+      ["BE21NI5", ["NI"], [0.192]]
+    ]
+  ],
+  "reference": "Okamoto (1988) - Table 4",
+  "comment": "Congruent melting of γ' (Be21Ni5) at 1668 K (1395°C). Composition ~16-19.2 at.% Ni (19.2 at.% is stoichiometric for Be21Ni5)"
+}
