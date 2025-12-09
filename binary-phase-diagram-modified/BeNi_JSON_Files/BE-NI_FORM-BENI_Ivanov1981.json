@@ -1,0 +1,17 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["BENI"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_configurations": [["BE", "NI"]]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 298.15
+  },
+  "output": "HM_FORM",
+  "values": [[[-42300]]],
+  "reference": "Ivanov (1981)",
+  "comment": "Solution calorimetry measurement of BeNi (β phase) formation enthalpy. M.I. Ivanov et al., Izv. Akad. Nauk SSSR, Neorg. Mater., 17(4), 627-630 (1981)"
+}

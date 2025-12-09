@@ -1,0 +1,17 @@
+{
+  "components": ["BE", "NI"],
+  "phases": ["BE21NI5"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [21, 5],
+    "sublattice_configurations": [["BE", "NI"]]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 298.15
+  },
+  "output": "HM_FORM",
+  "values": [[[-25700]]],
+  "reference": "Ivanov (1981)",
+  "comment": "Solution calorimetry measurement of Be21Ni5 (γ' phase) formation enthalpy. M.I. Ivanov et al., Izv. Akad. Nauk SSSR, Neorg. Mater., 17(4), 627-630 (1981)"
+}
