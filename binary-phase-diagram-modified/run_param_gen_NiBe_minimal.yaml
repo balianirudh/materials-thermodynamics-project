@@ -1,0 +1,14 @@
+# ESPEI Configuration for Ni-Be Parameter Generation (Minimal Version)
+# This generates initial TDB parameters from the JSON datasets
+
+system:
+  phase_models: NiBe_phase_models.json
+  datasets: NiBe_json_files
+
+generate_parameters:
+  excess_model: linear
+  ref_state: SGTE91
+  
+output:
+  verbosity: 2
+  output_db: NiBe_gen.tdb
